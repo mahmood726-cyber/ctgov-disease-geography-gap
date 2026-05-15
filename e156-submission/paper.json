@@ -1,0 +1,96 @@
+{
+  "title": "CT.gov Disease Geography Gap",
+  "slug": "ctgov-disease-geography-gap",
+  "author": "Mahmood Ahmad",
+  "date": "2026-03-29",
+  "body": "How does geography reshape the hiddenness of major disease families once older CT.gov studies are grouped into U.S.-only, mixed, non-U.S., and no-country buckets? We analysed 249,507 eligible older closed interventional studies from the March 29, 2026 full-registry snapshot and linked geography buckets to oncology, cardiovascular, and metabolic families. The project compares two-year no-results rates, ghost-protocol rates, visible shares, and hiddenness scores across geography buckets within each selected disease family. U.S.-plus-non-U.S. studies were the cleanest geography bucket in every disease family: 29.9 percent no results in cardiovascular, 29.4 percent in metabolic, and 39.4 percent in oncology. No-U.S. studies were worst: 89.9 percent no results in cardiovascular, 90.3 percent in metabolic, and 86.8 percent in oncology. The disease story therefore depends on geography structure, because the same clinical area can move from moderately visible to deeply hidden depending on where studies are located. Geography buckets use recorded locations rather than verified recruitment shares, sponsor domicile, or disease-burden denominators.",
+  "word_count": 156,
+  "sentence_count": 7,
+  "sentences": [
+    {
+      "role": "Question",
+      "text": "How does geography reshape the hiddenness of major disease families once older CT.gov studies are grouped into U.S.-only, mixed, non-U.S., and no-country buckets?"
+    },
+    {
+      "role": "Dataset",
+      "text": "We analysed 249,507 eligible older closed interventional studies from the March 29, 2026 full-registry snapshot and linked geography buckets to oncology, cardiovascular, and metabolic families."
+    },
+    {
+      "role": "Method",
+      "text": "The project compares two-year no-results rates, ghost-protocol rates, visible shares, and hiddenness scores across geography buckets within each selected disease family."
+    },
+    {
+      "role": "Primary result",
+      "text": "U.S.-plus-non-U.S. studies were the cleanest geography bucket in every disease family: 29.9 percent no results in cardiovascular, 29.4 percent in metabolic, and 39.4 percent in oncology."
+    },
+    {
+      "role": "Secondary result",
+      "text": "No-U.S. studies were worst: 89.9 percent no results in cardiovascular, 90.3 percent in metabolic, and 86.8 percent in oncology."
+    },
+    {
+      "role": "Interpretation",
+      "text": "The disease story therefore depends on geography structure, because the same clinical area can move from moderately visible to deeply hidden depending on where studies are located."
+    },
+    {
+      "role": "Boundary",
+      "text": "Geography buckets use recorded locations rather than verified recruitment shares, sponsor domicile, or disease-burden denominators."
+    }
+  ],
+  "notes": {
+    "app": "CT.gov Disease Geography Gap dashboard",
+    "data": "249,507 eligible older closed interventional studies linked to geography buckets and selected condition families",
+    "code": "https://github.com/mahmood726-cyber/ctgov-disease-geography-gap",
+    "doi": "",
+    "version": "1.0.0",
+    "date": "2026-03-29",
+    "validation": "FULL REGISTRY RUN"
+  },
+  "type": "methods",
+  "primary_estimand": "2-year no-results rate across geography buckets within selected disease families among eligible older CT.gov studies",
+  "validation": {
+    "status": "fail",
+    "checks": [
+      {
+        "name": "single paragraph",
+        "ok": true,
+        "detail": "Body must not contain blank-line paragraph breaks."
+      },
+      {
+        "name": "sentence count",
+        "ok": true,
+        "detail": "Found 7 sentences."
+      },
+      {
+        "name": "word count",
+        "ok": true,
+        "detail": "Found 156 words."
+      },
+      {
+        "name": "no headings",
+        "ok": true,
+        "detail": "No markdown headings allowed in body."
+      },
+      {
+        "name": "no links",
+        "ok": true,
+        "detail": "No links or DOI links allowed in body."
+      },
+      {
+        "name": "result sentence has interval",
+        "ok": true,
+        "detail": "Sentence 4 should include a quantitative result such as a percentage, count, or interval."
+      },
+      {
+        "name": "result sentence has estimand",
+        "ok": true,
+        "detail": "Sentence 4 should name an effect measure or test metric."
+      },
+      {
+        "name": "boundary sentence present",
+        "ok": false,
+        "detail": "Sentence 7 should express a limitation, harm, or scope boundary."
+      }
+    ]
+  },
+  "schema": "e156-v0.2"
+}
