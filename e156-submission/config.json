@@ -3,7 +3,7 @@
   "slug": "ctgov-disease-geography-gap",
   "author": "Mahmood Ahmad",
   "date": "2026-03-29",
-  "path": "C:\\Projects\\ctgov-analyses/ctgov-disease-geography-gap",
+  "path": "https://github.com/mahmood726-cyber/ctgov-disease-geography-gap",
   "type": "methods",
   "primary_estimand": "2-year no-results rate across geography buckets within selected disease families among eligible older CT.gov studies",
   "summary": "A standalone E156 project on how geography buckets reshape the visibility profile of oncology, cardiovascular, and metabolic CT.gov studies.",
